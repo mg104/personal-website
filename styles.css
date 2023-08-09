@@ -1,0 +1,141 @@
+
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: #c3bdcf;
+}
+
+.landing-page {
+    content: "";
+    background-color: white;
+    opacity: 0.88
+}
+
+.landing-page-image {
+    height: 100vh;
+    width: 100%;
+}
+
+.name-overlay {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.name {
+    font-family: consolas;
+    font-size: 60px;
+    color:greenyellow;
+    text-align: center;
+}
+
+.profession {
+    font-family: consolas;
+    font-size: 50px;
+    color: magenta;
+    margin-top: 100px;
+    text-align: center;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.passport-photo {
+    margin-top: 100px;
+    text-align: center;   
+}
+
+.col {
+    text-align: center;
+}
+
+.passport-photo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.hello {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.hello h2 {
+    font-size: 40px;
+}
+
+.introduction-text {
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+hr {
+    width: 1000px;
+    margin: 140px auto ;
+    background-color: black;
+}
+
+.skills h2 {
+    font-size: 40px;
+}
+
+.data-scientist {
+    margin-top: 100px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.data-scientist img {
+    margin-left: 300px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.data-scientist p {
+    text-align: left;
+    padding-right: 200px;
+}
+
+.get-in-touch {
+    padding-bottom: 100px;
+}
+
+.get-in-touch-heading h2 {
+    font-size: 40px
+}
+
+.get-in-touch-heading p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: grey;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border: 0px;
+}
+
+.btn-primary:hover {
+    background-color: darkmagenta;
+}
+
+.button-text {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+}
